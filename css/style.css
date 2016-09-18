@@ -1,0 +1,159 @@
+body{
+     background-image: url(../img/bgr.png);
+}
+
+/*wrapper*/
+
+.wrapper{
+     margin: 0 auto;
+     width: 1002px;
+     height: 960px;
+     background-image: url(../img/bgw.png);
+     box-shadow: 0 0 10px;
+}
+
+/*header*/
+
+.header_top{
+     height: 230px;
+     margin-top: -20px;
+     display: flex;
+     align-items: flex-end;
+  }
+.header_1 {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+  }
+.logo{
+     flex-grow: 1;
+     margin: auto;
+
+     padding-left: 30px;
+	   padding-top: 15px;
+}
+.contacts {
+     padding-left: 150px;
+}
+.contacts ul{
+     list-style: none;
+     font-family: Tahoma;
+     font-size: 15px;
+     margin-bottom: 27px;
+     color: #128aa7;
+}
+.contacts li:first-child{
+	   margin-bottom: -15px;
+}
+.contries div{
+     display: inline-block;
+     padding: 5px;
+}
+.contries a{
+     font-family: Tahoma;
+	   font-size: 12px;
+	   color: #128aa7;
+}
+.contries p {
+     margin-top: 0;
+     margin-bottom: 25px;
+}
+
+.photos{
+     margin-top: -20px;
+     width: 1000px;
+     height: 238px;
+     border: 1px solid;
+     color:#128aa7;
+}
+.header_down{
+     margin: 0;
+     padding: 0;
+}
+.menu{
+     margin-top: -16px;
+     border: 1px solid red;
+     height: 40px;
+     width: 1001px;
+}
+.menu ul{
+     line-height: 30px;
+     list-style: none;
+     padding: 0;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: #303030;
+     background-repeat: no-repeat;
+     box-shadow: 0 5px 5px rgba(0,0,0,.75);
+}
+.menu a{
+     text-decoration: none;
+     padding: 15px;
+     font-family: Tahoma;
+     font-size: 14px;
+     color: #fff;
+}
+.submenu  {
+     flex-direction: column;
+     position: absolute;
+     list-style: none;
+     padding: 0;
+     width: 165px;
+}
+.submenu li {
+     display: none;
+}
+.arrow:after {
+     content: url('../img/arrow.png');
+}
+
+.arrow {
+     background-position: 100% 50%;
+     cursor: pointer;
+}
+.arrow:hover>.submenu li {
+     display: flex;
+     margin: -10px;
+}
+.arrow a{
+  margin-bottom: -10px;
+}
+
+/*conteiner*/
+
+.conteiner {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 10px;
+     width: 1001px;
+}
+.left,
+.right {
+     width: 209px;
+     height: 471px;
+     padding-right: 30px;
+     font-family: Tahoma;
+     font-size: 14px;
+     color: #424c43;
+     background: #edeef0;
+     border: 1px solid #dbdddd;
+}
+.left ul,
+.right ul {
+     text-align: center;
+     list-style: none;
+}
+
+.right li,
+.left li {
+     margin-top: 10px;
+}
+
+/*.footer*/
+footer {
+    font-family: Tahoma;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
